@@ -3,7 +3,7 @@ import Swal from 'sweetalert2'
 
 function showImage(){
     Swal.fire({
-        imageUrl: 'https://www.ufes.br/sites/default/files/field/image/mosaico_ufes_2.jpg',
+        imageUrl: 'assets/ufes.jpg',
         imageAlt: 'A tall image',
         title: 'UFES'
     })
