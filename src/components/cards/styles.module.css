@@ -6,6 +6,7 @@
   background-color: white;
   margin: 15px;
   border-radius: 5px;
+  text-align: center;
 }
 
 .card:hover {
@@ -14,6 +15,16 @@
 
 .container {
   padding: 2px 16px;
+}
+
+.name{
+  font-size: 18px;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;  
+  overflow: hidden;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 .description{

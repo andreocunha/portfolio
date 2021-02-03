@@ -15,7 +15,7 @@ function Card(props) {
             />
 
             <div className={styles.container}>
-                <h4><b>{props.name}</b></h4>
+                <h4 className={styles.name}><b>{props.name}</b></h4>
                 <p className={styles.description}>{props.description}</p>
             </div>
             <div className={styles.githubButtonArea}>
