@@ -8,7 +8,7 @@ function Card(props) {
     return (
         <div className={styles.card}>
             <img
-                src={`https://raw.githubusercontent.com/${props.full_name}/main/introcomp.png`}
+                src={`https://raw.githubusercontent.com/${props.full_name}/master/exemplo.jpg`}
                 alt="Imagem do repositório"
                 style={{ width: '100%' }}
                 onError={reloadSrc}
