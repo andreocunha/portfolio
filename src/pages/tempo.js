@@ -1,4 +1,3 @@
-// import React, { useEffect } from 'react';
 import api from '../services/api';
 
 function Tempo(props){
@@ -33,7 +32,7 @@ export async function getStaticProps(){
             staticDateString,
             dados
         },
-        revalidate: 1
+        revalidate: 10
     }
 }
 
