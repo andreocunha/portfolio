@@ -3,6 +3,8 @@
   justify-content: center;
   align-items: center;
   text-align: center;
+  height: 100vh;
+  width: 100vw;
 }
 
 .containerProjects {
@@ -21,4 +23,49 @@
   font-size: 15px;
   padding-left: 8px;
   margin: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.4);
+}
+
+.mainContainer{
+  background-color: gray;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100vh;
+  width: 100vw;
+}
+
+.cardPerfil{
+  min-width: 300px;
+  min-height: 500px;
+  background-color: #222222;
+  border-width: 6px;
+  border-color: white;
+  border-style: solid;
+  width: 50%;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  display: flex;
+  border-radius: 20px;
+}
+
+.imgPerfil{
+  border-radius: 50%;
+  width: 50%;
+  min-width: 250px;
+}
+
+.buttonProjects{
+  align-self: center;
+  border-radius: 5px;
+  background-color: rgb(83, 80, 255);
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 5px;
+  color: white;
+  text-decoration:none; 
+  margin: 15px;
 }

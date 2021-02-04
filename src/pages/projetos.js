@@ -38,6 +38,14 @@ function Projetos(props){
             <div className={styles.containerProjects}>
                 {results !== '' ? results : listRepo}
             </div>    
+            <style jsx global>
+                {`
+                body {
+                    margin: 0;
+                    padding: 0;
+                }
+                `}
+            </style>
         </div>
         
     )
