@@ -43,6 +43,8 @@ function Projetos(props){
                 body {
                     margin: 0;
                     padding: 0;
+                    background-image: url("/assets/background_projects.jpg");
+                    background-size: 100vw 100vh;
                 }
                 `}
             </style>
