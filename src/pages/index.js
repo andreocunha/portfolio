@@ -15,7 +15,7 @@ function Home(){
                 </Link>    
 
                 <p style={{ color: '#ffffff', paddingLeft: 50, paddingRight: 50, fontSize: 18}}>
-                    Estudate de Engenharia de Computação na UFES. Faz parte do grupo PET Engenharia de Computação, do
+                    Estudante de Engenharia de Computação na UFES. Faz parte do grupo PET Engenharia de Computação, do
                     AVES (Aero Vitória Espirito Santo) e do Introcomp (Introdução a Computação).
                 </p>
 
