@@ -57,9 +57,10 @@
   border-radius: 50%;
   width: 50%;
   min-width: 250px;
+  max-width: 300px;
 }
 
-.buttonProjects{
+/* .buttonProjects{
   align-self: center;
   border-radius: 5px;
   background-color: rgb(83, 80, 255);
@@ -70,6 +71,36 @@
   color: white;
   text-decoration:none; 
   margin: 15px;
+} */
+
+.buttonProjects {
+  border:none;
+  text-align: center;
+  align-self: center;
+  border-radius: 5px;
+  background-color: rgb(83, 80, 255);
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 5px;
+  color: white;
+  text-decoration:none; 
+  margin: 15px;
+  animation: animacaoBotao 2.5s linear infinite;
+}
+@keyframes animacaoBotao {
+  0%{
+      box-shadow: 0 0 0 0 rgb(50, 47, 230), 0 0 0 0 rgb(50, 47, 230);
+  }
+  40%{
+      box-shadow: 0 0 0 22px rgba(20, 143, 20, 0), 0 0 0 0 rgb(50, 47, 230);
+  }
+  80%{
+      box-shadow: 0 0 0 22px rgba(20, 143, 20, 0), 0 0 0 15px rgba(20, 143, 20, 0);
+  }
+  100%{
+      box-shadow: 0 0 0 0 rgba(20, 143, 20, 0), 0 0 0 15px rgba(20, 143, 20, 0);
+  }
 }
 
 .bgWrap {

@@ -11,7 +11,7 @@ function Home(){
                 <img src="assets/andre_img.jpeg" className={styles.imgPerfil}/>
 
                 <Link href="/projetos">
-                    <a className={styles.buttonProjects}>Projetos</a>
+                    <button className={styles.buttonProjects}>Projetos</button>
                 </Link>    
 
                 <p style={{ color: '#ffffff', paddingLeft: 50, paddingRight: 50, fontSize: 18}}>
