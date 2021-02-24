@@ -1,10 +1,14 @@
 import Link from 'next/link'
 import styles from './styles.module.css'
 import Image from 'next/image'
+import Head from 'next/head';
 
 function Home(){
     return(
         <div className={styles.mainContainer}>
+            <Head>
+                <meta name="google-site-verification" content="U6DsQMemxSJvuZTy72uJMzLlgFJuRpxq97C-DSQl624" />
+            </Head>
 
             <div className={styles.cardPerfil}>
                 <h1 style={{ color: '#ffffff'}}>André Oliveira Cunha</h1>
