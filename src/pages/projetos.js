@@ -2,6 +2,7 @@ import { useState } from 'react'
 import api from '../services/api';
 import Card from '../components/cards/cards';
 import styles from './styles.module.css'
+import Head from 'next/head';
 
 
 function Projetos(props){
@@ -27,6 +28,12 @@ function Projetos(props){
 
     return(
         <div className={styles.container}>
+            <Head>
+                <title>Projetos</title>
+                <link rel="shortcut icon" href="assets/favicon_projects.jpg" type="image/jpg"/>
+                <meta name="google-site-verification" content="U6DsQMemxSJvuZTy72uJMzLlgFJuRpxq97C-DSQl624" />
+            </Head>
+
             <input 
                 placeholder="Pesquisar" 
                 onChange={async (e) => {

@@ -7,6 +7,8 @@ function Home(){
     return(
         <div className={styles.mainContainer}>
             <Head>
+                <title>André Oliveira Cunha</title>
+                <link rel="shortcut icon" href="assets/favicon.png" type="image/png"/>
                 <meta name="google-site-verification" content="U6DsQMemxSJvuZTy72uJMzLlgFJuRpxq97C-DSQl624" />
             </Head>
 
