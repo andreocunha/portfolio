@@ -52,7 +52,10 @@ function Projetos(props){
                     padding: 0;
                     background: #396D47;
                     background-image: url("/assets/background_projects.jpg");
-                    background-size: 100vw 100vh;
+                    background-size: cover;
+                    background-repeat: no-repeat;
+                    background-position: center;
+                    background-attachment: fixed;
                 }
                 `}
             </style>

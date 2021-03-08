@@ -25,9 +25,10 @@
 }
 
 .mainContainer{
-  /* background-image: url("/assets/mountains.jpg");
-  background-size: 100vw 100vh;
-  background-repeat: no-repeat; */
+  background-image: url("/assets/mountains.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
   position:absolute;
   display: flex;
   align-items: center;

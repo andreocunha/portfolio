@@ -1,6 +1,5 @@
 import Link from 'next/link'
 import styles from './styles.module.css'
-import Image from 'next/image'
 import Head from 'next/head';
 
 function Home(){
@@ -25,18 +24,7 @@ function Home(){
                     AVES (Aero Vitória Espirito Santo) e do Introcomp (Introdução a Computação).
                 </p>
 
-            </div>
-
-            <div className={styles.bgWrap}>
-                <Image
-                    alt="Mountains"
-                    src="/assets/mountains.jpg"
-                    layout="fill"
-                    objectFit="cover"
-                    quality={100}
-                />
-            </div>
-            
+            </div>            
             
 
             <style jsx global>
