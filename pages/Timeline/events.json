@@ -1,0 +1,45 @@
+[
+    {
+      "id": "1",
+      "date": "20/04/2015",
+      "title": "IFES",
+      "description": "Começo da minha jornada no Instituto Federal do Espirito Santo, no campus Vitória. Representei a equipe de natação do IFES durante meus 4 anos lá. Me formei como técnico em eletrotécnica em Dezembro de 2018.",
+      "image": "/ifes.jpeg"
+    },
+    {
+      "id": "2",
+      "date": "04/02/2019",
+      "title": "UFES",
+      "description": "Iniciei minha jornada na Universidade Federal do Espirito Santo, cursando Engenharia de Computação. Atualmente estou no 5º período e já tive a oportunidade de participar de grandes projetos de extensão na faculdade.",
+      "image": "/ufes.jpeg"
+    },
+    {
+      "id": "3",
+      "date": "01/09/2019",
+      "title": "AVES",
+      "description": "Entrei no projeto Aero Vitória Espirito Santo (AVES) em 2019. O grupo AVES projeta e constrói aeronaves de carga remotamente controladas para a competição da SAE Brasil AeroDesign. Minha área no grupo é na parte de telemtria e aquisição de dados.",
+      "image": "/aves.png"
+    },
+    {
+      "id": "4",
+      "date": "01/11/2019",
+      "title": "PET",
+      "description": "Entrei para o grupo PET (Programa de Educação Tutorial) em 2019. Lá participo de diversas comissões como DEV, grupo de IA e eletrônica (onde atualmente sou o líder).",
+      "image": "/pet.jpg"
+    },
+    {
+      "id": "5",
+      "date": "01/11/2019",
+      "title": "Introcomp",
+      "description": "Entrei no Introcomp ao mesmo tempo que entrei no PET. Lá pude me desenvolver em diversas áreas como comunicação e programação. Tive a oportunidade de lecionar aulas para alunos do Ensino Médio de todo o Brasil pela plataforma da Twitch, além de poder criar os materiais das aulas.",
+      "image": "/introcomp.png"
+    },
+    {
+      "id": "6",
+      "date": "01/04/2021",
+      "title": "Solaares",
+      "description": "O projeto mais recente que faço parte. No Solares atuamos em diversas áreas, tanto sociais quanto técnicas. Faço parte do grupo de Telemetria do barco de competição, que criamos para participar do Desafio Solar Brasil (DSB).",
+      "image": "/solares.jpeg"
+    }
+  ]
+  
