@@ -17,7 +17,7 @@
       "id": "3",
       "date": "01/09/2019",
       "title": "AVES",
-      "description": "Entrei no projeto Aero Vitória Espirito Santo (AVES) em 2019. O grupo AVES projeta e constrói aeronaves de carga remotamente controladas para a competição da SAE Brasil AeroDesign. Minha área no grupo é na parte de telemtria e aquisição de dados.",
+      "description": "Entrei no projeto Aero Vitória Espirito Santo (AVES) em 2019. O grupo AVES projeta e constrói aeronaves de carga remotamente controladas para a competição da SAE Brasil AeroDesign. Minha área no grupo é na parte de telemetria e aquisição de dados.",
       "image": "/aves.png"
     },
     {
@@ -37,7 +37,7 @@
     {
       "id": "6",
       "date": "01/04/2021",
-      "title": "Solaares",
+      "title": "Solares",
       "description": "O projeto mais recente que faço parte. No Solares atuamos em diversas áreas, tanto sociais quanto técnicas. Faço parte do grupo de Telemetria do barco de competição, que criamos para participar do Desafio Solar Brasil (DSB).",
       "image": "/solares.jpeg"
     }
