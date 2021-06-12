@@ -1,6 +1,5 @@
 import styles from '../../styles/components/Header.module.css';
 import { useState } from 'react';
-import Hamburger from 'hamburger-react';
 import Link from 'next/link';
 import { useRouter } from "next/router";
 

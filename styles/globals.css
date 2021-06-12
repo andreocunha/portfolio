@@ -17,13 +17,13 @@ a {
 }
 
 :root {
-  --white: #fff;
+  --white: #ffffff;
   --background: #dbdbfdc7;
   --background-components: #ebeff2;
   --gray: #545454;
   --gray-line: #cddde0;
   --text: #666666;
-  --text-highlight: #b3b9ff;
+  --text-highlight: #d6d866;
   --title: #2e384d;
   --red: #d9042b;
   --red-dark: #a70523;
@@ -34,5 +34,5 @@ a {
   --orange-light: #ff6600;
   --blue: #1f4373;
   --blue-dark: #152c4b;
-  --blue-gray: #345C81;
+  --blue-gray: #345574;
 }
