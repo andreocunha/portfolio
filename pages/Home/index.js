@@ -12,7 +12,7 @@ export default function Home(){
                 <div className={styles.title}>
                     André Oliveira Cunha
                 </div>
-                <img src="/andre_img.jpeg" className={styles.imgPerfil} width="100%" height="auto" alt="Foto André Oliveira Cunha"/>
+                <img src="/andre_img.jpeg" className={styles.imgPerfil} width="300px" alt="Foto André Oliveira Cunha"/>
 
                 <p>
                     Estudante de Engenharia de Computação na UFES. Faz parte do grupo PET Engenharia de Computação, do

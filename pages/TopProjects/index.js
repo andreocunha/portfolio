@@ -21,7 +21,7 @@ export default function TopProjects() {
                 <meta name="google-site-verification" content="U6DsQMemxSJvuZTy72uJMzLlgFJuRpxq97C-DSQl624" />
             </Head>
 
-            <h1>TOP 3 projects</h1>
+            <h1>TOP 3 Projetos</h1>
             <div className={styles.timeline}>
                 <VerticalTimeline layout={'1-column-left'} className={styles.timelineArea}>
                     {projects.map(event => (
