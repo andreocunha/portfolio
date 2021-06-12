@@ -17,6 +17,9 @@
 
 .timeline {
   max-width: 700px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .position {
@@ -35,4 +38,27 @@
   max-width: 350px;
   width: 100%;
   border-radius: 15px;
+}
+
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50px;
+}
+
+.button a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--white);
+  background-color: var(--blue);
+  width: 100px;
+  height: 30px;
+  border-radius: 5px;
+  transition: 0.4s;
+}
+
+.button a:hover {
+  background-color: var(--blue-dark);
 }

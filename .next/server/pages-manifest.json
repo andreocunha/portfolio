@@ -2,8 +2,5 @@
   "/_app": "pages/_app.js",
   "/_document": "pages/_document.js",
   "/_error": "pages/_error.js",
-  "/TopProjects": "pages/TopProjects.js",
-  "/Timeline": "pages/Timeline.js",
-  "/next/dist/pages/_error": "pages/next/dist/pages/_error.js",
-  "/AllProjects": "pages/AllProjects.js"
+  "/TopProjects": "pages/TopProjects.js"
 }

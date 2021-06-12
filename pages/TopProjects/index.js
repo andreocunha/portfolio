@@ -36,7 +36,7 @@ export default function TopProjects() {
             {/* <iframe width="560" height="315" src="https://www.youtube.com/embed/BRX5SL0oXic" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe> */}
         
             <div className={styles.timeline}>
-                <VerticalTimeline layout={'1-column-left'}>
+                <VerticalTimeline layout={'1-column-left'} className={styles.timelineArea}>
                     {projects.map(event => (
                     <VerticalTimelineElement
                         key={event.id}
@@ -48,6 +48,9 @@ export default function TopProjects() {
                         <h3>{event.title}</h3>
                         <img src={event.image} alt={event.title}/>
                         <p>{event.description}</p>
+                        <div className={styles.button}>
+                            <a href={event.link} target="_blank">Ver mais</a>
+                        </div>
                     </VerticalTimelineElement>
                     ))}
                 </VerticalTimeline>    
