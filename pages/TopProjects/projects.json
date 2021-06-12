@@ -1,0 +1,26 @@
+[
+    {
+      "id": "1",
+      "date": "19/06/2020",
+      "title": "Pulseira Anti-Covid",
+      "description": "Pulseira que alerta as pessoas quando estão muito próximas umas das outras, enviando um alerta sonoro e luminoso.",
+      "link":"https://www.linkedin.com/posts/andr%C3%A9-oliveira-cunha-b26b3a156_ufes-cria-pulseira-anti-covid-para-monitorar-activity-6682490130743218176-NLIY",
+      "image": "/pulseira.png"
+    },
+    {
+      "id": "2",
+      "date": "15/11/2019",
+      "title": "Tranca Biometrica",
+      "description": "Primeira tranca com leitura biometrica e RFID usada na sala do PET Engenharia de Computação na UFES.",
+      "link":"https://www.instructables.com/Tranca-El%C3%A9trica-Com-Biometria-E-Leitor-RFID/",
+      "image": "/tranca.jpg"
+    },
+    {
+      "id": "3",
+      "date": "08/12/2020",
+      "title": "Levitador magnético",
+      "description": "Levitador magnético feito para a disciplina de eletromagnetismo 1, da UFES.",
+      "link":"https://www.youtube.com/watch?v=ByqVDgHlkjY",
+      "image": "/levitador.png"
+    }
+]

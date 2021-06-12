@@ -14,10 +14,15 @@
     "static/development/_ssgManifest.js"
   ],
   "pages": {
-    "/": [
+    "/AllProjects": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/index.js"
+      "static/chunks/pages/AllProjects.js"
+    ],
+    "/Timeline": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/Timeline.js"
     ],
     "/TopProjects": [
       "static/chunks/webpack.js",

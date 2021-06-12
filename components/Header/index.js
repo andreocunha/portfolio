@@ -11,7 +11,7 @@ const Header = ({children}) => {
     return (
         <div>
             <div className={styles.headerContainer} 
-                style={router.pathname === "/Timeline" ? {position: 'absolute'} : {}}
+                style={{position: 'absolute'}}
             >
                 <div className={styles.iconHamburger}>
                     <Hamburger direction="right" size={30} toggled={isOpen} toggle={setOpen} />
@@ -39,7 +39,7 @@ const Header = ({children}) => {
                                 onClick={() => setOpen(false)}
                                 style={router.pathname === "/TopProjects" ? {backgroundColor: '#2a4c6b'} : {}} 
                                 className={styles.linkPage}>
-                                    <p>Top 5</p>
+                                    <p>Top 3</p>
                             </div>
                         </Link>
                         <Link href="/AllProjects">
@@ -66,7 +66,7 @@ const Header = ({children}) => {
                         </Link>
                         <Link href="/TopProjects">
                             <p className={router.pathname === "/TopProjects" ? styles.activeWeb : ""}>
-                                Top 5
+                                Top 3
                             </p>
                         </Link>
                         <Link href="/AllProjects">

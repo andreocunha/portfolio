@@ -14,3 +14,9 @@
   margin-top: 150px;
   margin-bottom: 75px;
 }
+
+.timeline img{
+  max-width: 350px;
+  width: 100%;
+  border-radius: 15px;
+}

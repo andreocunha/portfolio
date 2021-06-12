@@ -1,12 +1,17 @@
 import styles from '../../styles/pages/AllProjects.module.css'
-import { useState } from 'react'
+import { useEffect, useState } from 'react'
 import api from '../../services/api';
 import Card from '../../components/Card';
 import Head from 'next/head';
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 
 export default function AllProjects(props) {
     const [results, setResults] = useState('')
+    useEffect(() => {
+        AOS.init();
+    })
 
     const listRepo = (props.dados).map((repo) =>
         <Card 
@@ -40,7 +45,7 @@ export default function AllProjects(props) {
                 }}
                 className={styles.input}
             />
-            <div className={styles.containerProjects}>
+            <div className={styles.containerProjects} data-aos="fade-zoom-in" data-aos-offset="500" data-aos-easing="ease-in-sine" data-aos-duration="600">
                 {results !== '' ? results : listRepo}
             </div>   
 
