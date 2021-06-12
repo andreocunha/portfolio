@@ -23,7 +23,7 @@ export default function TopProjects() {
 
             <h1>TOP 3 Projetos</h1>
             <div className={styles.timeline}>
-                <VerticalTimeline layout={'1-column-left'} className={styles.timelineArea}>
+                <VerticalTimeline layout={'1-column-left'} className={styles.timelineArea} >
                     {projects.map(event => (
                     <VerticalTimelineElement
                         key={event.id}
