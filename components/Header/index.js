@@ -5,81 +5,59 @@ import Link from 'next/link';
 import { useRouter } from "next/router";
 
 const Header = ({children}) => {
-    const [isOpen, setOpen] = useState(false);
     const router = useRouter();
-
+    const [clicked, setClicked] = useState(false);
     return (
-        <div>
-            <div className={styles.headerContainer} 
-                style={{position: 'absolute'}}
-            >
-                <div className={styles.iconHamburger}>
-                    <Hamburger direction="right" size={30} toggled={isOpen} toggle={setOpen} />
-                </div>
-                {isOpen && 
-                    <div className={styles.headerMenuMobile}>
-                        <Link href="/">
-                            <div 
-                                onClick={() => setOpen(false)} 
-                                style={router.pathname === "/" ? {backgroundColor: '#2a4c6b'} : {}}
-                                className={styles.linkPage}>
-                                    <p>Home</p>
-                            </div>
-                        </Link>
-                        <Link href="/Timeline">
-                            <div 
-                                onClick={() => setOpen(false)} 
-                                style={router.pathname === "/Timeline" ? {backgroundColor: '#2a4c6b'} : {}}
-                                className={styles.linkPage}>
-                                    <p>Jornada</p>
-                            </div>
-                        </Link>
-                        <Link href="/TopProjects">
-                            <div 
-                                onClick={() => setOpen(false)}
-                                style={router.pathname === "/TopProjects" ? {backgroundColor: '#2a4c6b'} : {}} 
-                                className={styles.linkPage}>
-                                    <p>Top 3</p>
-                            </div>
-                        </Link>
-                        <Link href="/AllProjects">
-                            <div 
-                                onClick={() => setOpen(false)} 
-                                style={router.pathname === "/AllProjects" ? {backgroundColor: '#2a4c6b'} : {}}
-                                className={styles.linkPage}>
-                                    <p>Todos Projetos</p>
-                            </div>
-                        </Link>
-                    </div>
-                }
-                {!isOpen && 
-                    <div className={styles.headerMenuWeb}>
-                        <Link href="/">
-                            <p className={router.pathname === "/" ? styles.activeWeb : ""}>
-                                Home
-                            </p>
-                        </Link>
-                        <Link href="/Timeline">
-                            <p className={router.pathname === "/Timeline" ? styles.activeWeb : ""}>
-                                Jornada
-                            </p>
-                        </Link>
-                        <Link href="/TopProjects">
-                            <p className={router.pathname === "/TopProjects" ? styles.activeWeb : ""}>
-                                Top 3
-                            </p>
-                        </Link>
-                        <Link href="/AllProjects">
-                            <p className={router.pathname === "/AllProjects" ? styles.activeWeb : ""}>
-                                Todos Projetos
-                            </p>
-                        </Link>
-                    </div>
-                }
-            </div>
+        <div className="container">
+            <nav className={styles.navLinks}>
+                <input id="nav-toggle" className={styles.navToggle} onChange={()=>{}} type="checkbox" checked={clicked}/>
+                <ul className={styles.links}>
+                    <Link href="/">
+                        <li 
+                            onClick={() => setClicked(!clicked)}
+                            className={router.pathname === "/" ? styles.pageClicked : {}}
+                            >
+                            <p>Home</p>
+                        </li>
+                    </Link>
+
+                    <Link href="/Timeline">
+                        <li 
+                            onClick={() => setClicked(!clicked)}
+                            className={router.pathname === "/Timeline" ? styles.pageClicked : {}}
+                            >
+                            <p>Jornada</p>
+                        </li>
+                    </Link>
+
+                    <Link href="/TopProjects">
+                        <li 
+                            onClick={() => setClicked(!clicked)}
+                            className={router.pathname === "/TopProjects" ? styles.pageClicked : {}}
+                            >
+                            <p>Top 3</p>
+                        </li>
+                    </Link>
+
+                    <Link href="/AllProjects">
+                        <li 
+                            onClick={() => setClicked(!clicked)}
+                            className={router.pathname === "/AllProjects" ? styles.pageClicked : {}}
+                            >
+                            <p>Todos Projetos</p>
+                        </li>
+                    </Link>
+                </ul>
+                <label htmlFor="nav-toggle" className={styles.iconBurger} onClick={() => setClicked(!clicked)}>
+                    <div className={styles.line}></div>
+                    <div className={styles.line}></div>
+                    <div className={styles.line}></div>
+                </label>
+            </nav>
             {children}
-        </div>
+        </div>        
     )
 }
 
 export default Header;
+
