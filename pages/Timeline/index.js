@@ -24,7 +24,7 @@ export default function Timeline() {
                     iconStyle={{ background: "rgb(52, 92, 129)", color: "#fff" }}
                 >
                     <h3>{event.title}</h3>
-                    <img src={event.image} alt={event.title} />
+                    <img src={event.image} alt={event.title} width="100%"/>
                     <p>{event.description}</p>
                 </VerticalTimelineElement>
                 ))}

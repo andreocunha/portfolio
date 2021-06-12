@@ -1,9 +1,7 @@
 import Head from 'next/head'
-import CardTop5 from '../../components/CardTop5'
 import styles from '../../styles/pages/TopProjects.module.css'
 import { VerticalTimeline, VerticalTimelineElement }  from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css';
-
 import projects from './projects.json'
 
 export default function TopProjects() {
@@ -24,17 +22,6 @@ export default function TopProjects() {
             </Head>
 
             <h1>TOP 3 projects</h1>
-            {/* <h2>Página em construção</h2>
-            <img src="/building-page.png" alt="Contruindo site" width="350px"/> */}
-            {/* <CardTop5 
-                title="Tranca biométrica do PET"
-                description="Essa tranca utiliza um Arduino e sensores de biometria e RFID para permitir a entrada dos membros do PET na sala, evitando a necessidade de se utilizar chaves"
-                href="https://www.instructables.com/Tranca-El%C3%A9trica-Com-Biometria-E-Leitor-RFID/"
-                image={false}
-                videoUrl="https://www.youtube.com/embed/BRX5SL0oXic"
-            /> */}
-            {/* <iframe width="560" height="315" src="https://www.youtube.com/embed/BRX5SL0oXic" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe> */}
-        
             <div className={styles.timeline}>
                 <VerticalTimeline layout={'1-column-left'} className={styles.timelineArea}>
                     {projects.map(event => (
@@ -46,7 +33,7 @@ export default function TopProjects() {
                         icon={<Position id={event.id}/>}
                     >
                         <h3>{event.title}</h3>
-                        <img src={event.image} alt={event.title}/>
+                        <img src={event.image} alt={event.title} width="100%"/>
                         <p>{event.description}</p>
                         <div className={styles.button}>
                             <a href={event.link} target="_blank">Ver mais</a>

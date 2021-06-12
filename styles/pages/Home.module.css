@@ -7,18 +7,6 @@
   background-color: var(--background);
 }
 
-.title {
-  font-weight: 700;
-  color: var(--title);
-  width: 20.1ch;
-  animation: typing 2s steps(22), blink .5s step-end infinite alternate;
-  white-space: nowrap;
-  overflow: hidden;
-  border-right: 3px solid;
-  font-family: monospace;
-  font-size: 2em;
-}
-
 .info {
   display: flex;
   flex-direction: column;
@@ -34,10 +22,21 @@
   padding-right: 15%;
 }
 
+.title {
+  font-weight: 700;
+  color: var(--title);
+  width: 20.1ch;
+  animation: typing 2s steps(22), blink .5s step-end infinite alternate;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 3px solid;
+  font-family: monospace;
+  font-size: 2em;
+}
+
 .imgPerfil {
   border-radius: 50%;
   width: 50%;
-  min-width: 250px;
   max-width: 300px;
   margin-top: 20px;
   margin-bottom: 20px;
@@ -65,5 +64,16 @@
   .info p {
     padding-left: 2rem;
     padding-right: 2rem;
+  }
+  .info img {
+    width: 40%;
+    margin: 0;
+    margin-top: 2rem;
+  }
+}
+
+@media (max-width: 400px){
+  .title {
+    font-size: 1.2rem;
   }
 }
