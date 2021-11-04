@@ -15,8 +15,7 @@ export default function Home(){
                 <img src="/andre_img.jpeg" width="100%" height="auto" alt="Foto André Oliveira Cunha"/>
 
                 <p>
-                    Estudante de Engenharia de Computação na UFES. Faz parte do grupo PET Engenharia de Computação, do
-                    AVES (Aero Vitória Espirito Santo), do Solares e fez parte do Introcomp (Introdução a Computação).
+                    Estudante de Engenharia de Computação na Universidade Federal do Espirito Santo. Faz parte do time de instrutores mobile da Alura e do projeto de extensão Solares na UFES.
                 </p>
             </div>
         </div>

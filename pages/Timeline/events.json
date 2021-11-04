@@ -40,6 +40,13 @@
       "title": "Solares",
       "description": "O projeto mais recente que faço parte. No Solares atuamos em diversas áreas, tanto sociais quanto técnicas. Faço parte do grupo de Telemetria do barco de competição, que criamos para participar do Desafio Solar Brasil (DSB).",
       "image": "/solares.jpeg"
+    },
+    {
+      "id": "7",
+      "date": "05/07/2021",
+      "title": "Alura",
+      "description": "Entrei como estagiário Scuba Team da Alura, na área de desenvolvimento mobile.",
+      "image": "/alura.jpeg"
     }
   ]
   
