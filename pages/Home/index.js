@@ -15,7 +15,7 @@ export default function Home(){
                 <img src="/andre_img.jpeg" width="100%" height="auto" alt="Foto André Oliveira Cunha"/>
 
                 <p>
-                    Estudante de Engenharia de Computação na Universidade Federal do Espirito Santo. Faz parte do time de instrutores mobile da Alura e do projeto de extensão Solares na UFES.
+                    Estudante de Engenharia de Computação na Universidade Federal do Espirito Santo. Instrutor mobile na Alura e CTO e co-fundador da Moddev.
                 </p>
             </div>
         </div>
