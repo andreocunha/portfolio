@@ -1,11 +1,10 @@
 {
-  "/_error": "pages/_error.js",
-  "/_document": "pages/_document.js",
   "/_app": "pages/_app.js",
-  "/Timeline": "pages/Timeline.html",
-  "/TopProjects": "pages/TopProjects.html",
+  "/_document": "pages/_document.js",
+  "/_error": "pages/_error.js",
   "/": "pages/index.html",
-  "/Home": "pages/Home.html",
-  "/AllProjects": "pages/AllProjects.js",
+  "/api/hello": "pages/api/hello.js",
+  "/projetos": "pages/projetos.html",
+  "/sobre": "pages/sobre.html",
   "/404": "pages/404.html"
 }

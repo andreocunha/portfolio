@@ -5,26 +5,8 @@ exports.id = 820;
 exports.ids = [820];
 exports.modules = {
 
-/***/ 2648:
-/***/ ((__unused_webpack_module, exports) => {
-
-var __webpack_unused_export__;
-
-__webpack_unused_export__ = ({
-    value: true
-});
-exports.Z = _interopRequireDefault;
-function _interopRequireDefault(obj) {
-    return obj && obj.__esModule ? obj : {
-        default: obj
-    };
-}
-
-
-/***/ }),
-
-/***/ 7345:
-/***/ ((__unused_webpack_module, exports, __webpack_require__) => {
+/***/ 3499:
+/***/ ((module, exports, __webpack_require__) => {
 
 
 Object.defineProperty(exports, "__esModule", ({
@@ -33,7 +15,7 @@ Object.defineProperty(exports, "__esModule", ({
 exports["default"] = void 0;
 var _interop_require_default = (__webpack_require__(2648)/* ["default"] */ .Z);
 var _react = _interop_require_default(__webpack_require__(6689));
-var _head = _interop_require_default(__webpack_require__(4957));
+var _head = _interop_require_default(__webpack_require__(2636));
 const statusCodes = {
     400: "Bad Request",
     404: "This page could not be found",
@@ -48,7 +30,8 @@ function _getInitialProps({ res , err  }) {
 }
 const styles = {
     error: {
-        fontFamily: '-apple-system, BlinkMacSystemFont, Roboto, "Segoe UI", "Fira Sans", Avenir, "Helvetica Neue", "Lucida Grande", sans-serif',
+        // https://github.com/sindresorhus/modern-normalize/blob/main/modern-normalize.css#L38-L52
+        fontFamily: 'system-ui,"Segoe UI",Roboto,Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji"',
         height: "100vh",
         textAlign: "center",
         display: "flex",
@@ -58,27 +41,22 @@ const styles = {
     },
     desc: {
         display: "inline-block",
-        textAlign: "left",
-        lineHeight: "49px",
-        height: "49px",
-        verticalAlign: "middle"
+        textAlign: "left"
     },
     h1: {
         display: "inline-block",
-        margin: 0,
-        marginRight: "20px",
-        padding: "0 23px 0 0",
-        fontSize: "24px",
+        margin: "0 20px 0 0",
+        paddingRight: 23,
+        fontSize: 24,
         fontWeight: 500,
         verticalAlign: "top",
         lineHeight: "49px"
     },
     h2: {
-        fontSize: "14px",
-        fontWeight: "normal",
+        fontSize: 14,
+        fontWeight: 400,
         lineHeight: "49px",
-        margin: 0,
-        padding: 0
+        margin: 0
     }
 };
 var _Component;
@@ -90,18 +68,23 @@ class Error extends (_Component = _react.default.Component) {
             style: styles.error
         }, /*#__PURE__*/ _react.default.createElement(_head.default, null, /*#__PURE__*/ _react.default.createElement("title", null, statusCode ? `${statusCode}: ${title}` : "Application error: a client-side exception has occurred")), /*#__PURE__*/ _react.default.createElement("div", null, /*#__PURE__*/ _react.default.createElement("style", {
             dangerouslySetInnerHTML: {
-                __html: `
+                /* CSS minified from
                 body { margin: 0; color: #000; background: #fff; }
                 .next-error-h1 {
                   border-right: 1px solid rgba(0, 0, 0, .3);
                 }
 
-                ${withDarkMode ? `@media (prefers-color-scheme: dark) {
+                ${
+                  withDarkMode
+                    ? `@media (prefers-color-scheme: dark) {
                   body { color: #fff; background: #000; }
                   .next-error-h1 {
                     border-right: 1px solid rgba(255, 255, 255, .3);
                   }
-                }` : ""}`
+                }`
+                    : ''
+                }
+               */ __html: `body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}${withDarkMode ? "@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}" : ""}`
             }
         }), statusCode ? /*#__PURE__*/ _react.default.createElement("h1", {
             className: "next-error-h1",
@@ -116,15 +99,50 @@ class Error extends (_Component = _react.default.Component) {
 Error.displayName = "ErrorPage";
 Error.getInitialProps = _getInitialProps;
 Error.origGetInitialProps = _getInitialProps;
-exports["default"] = Error; //# sourceMappingURL=_error.js.map
+exports["default"] = Error;
+if ((typeof exports.default === "function" || typeof exports.default === "object" && exports.default !== null) && typeof exports.default.__esModule === "undefined") {
+    Object.defineProperty(exports.default, "__esModule", {
+        value: true
+    });
+    Object.assign(exports.default, exports);
+    module.exports = exports.default;
+} //# sourceMappingURL=_error.js.map
 
 
 /***/ }),
 
-/***/ 4957:
+/***/ 3918:
 /***/ ((module) => {
 
-module.exports = require("next/dist/shared/lib/head.js");
+module.exports = require("next/dist/shared/lib/amp-context.js");
+
+/***/ }),
+
+/***/ 5732:
+/***/ ((module) => {
+
+module.exports = require("next/dist/shared/lib/amp-mode.js");
+
+/***/ }),
+
+/***/ 2796:
+/***/ ((module) => {
+
+module.exports = require("next/dist/shared/lib/head-manager-context.js");
+
+/***/ }),
+
+/***/ 2470:
+/***/ ((module) => {
+
+module.exports = require("next/dist/shared/lib/side-effect.js");
+
+/***/ }),
+
+/***/ 618:
+/***/ ((module) => {
+
+module.exports = require("next/dist/shared/lib/utils/warn-once.js");
 
 /***/ }),
 
@@ -142,7 +160,7 @@ module.exports = require("react");
 var __webpack_require__ = require("../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = (__webpack_exec__(7345));
+var __webpack_exports__ = __webpack_require__.X(0, [636], () => (__webpack_exec__(3499)));
 module.exports = __webpack_exports__;
 
 })();
